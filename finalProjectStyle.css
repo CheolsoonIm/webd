@@ -1,0 +1,50 @@
+@charset "utf-8";
+@font-face{
+   font-family: DobkinPlain;
+   src: url('DobkinPlain.woff') format('woff'),
+        url('DobkinPlain.ttf') format('truetype');
+}
+
+@font-face{
+   font-family: CAC;
+   src: url('cac_champagne.woff') format('woff'),
+        url('cac_champagne.woff') format('truetype');
+}
+
+
+#image_bg
+{
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  width: 1000px;
+  height: 1200px;
+  background-image: url("images\\whitecomputer.jpg");
+}
+
+#image_bg_long
+{
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  width: 1000px;
+  height: 1700px;
+  background-image: url("images\\lightbluesky.jpg");
+  /* background-image: url("images\\whiteblocks.jpg");  */
+}
+
+
+h1
+{
+    color:rgba(0, 0, 0, 0.822);
+    font-family: CAC;
+    font: size 50px;
+}
+
+#otherpages
+{
+  color:rgb(28, 42, 44);
+}
+
+nav,p,ul, header,h3 {
+  font-family: monospace;
+  font: size 30px;
+}
