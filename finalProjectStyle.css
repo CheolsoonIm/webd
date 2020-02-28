@@ -1,14 +1,14 @@
 @charset "utf-8";
 @font-face{
-   font-family: DobkinPlain;
-   src: url('DobkinPlain.woff') format('woff'),
-        url('DobkinPlain.ttf') format('truetype');
+   font-family: ostrich-sans-black;
+   src: url('font\\ostrich-sans-black.woff') format('woff'),
+        url('font\\ostrich-sans-black.ttf') format('truetype');
 }
 
 @font-face{
-   font-family: CAC;
-   src: url('cac_champagne.woff') format('woff'),
-        url('cac_champagne.woff') format('truetype');
+   font-family: ostrich-sans-regualar;
+   src: url('font\\ostrich-sans-regular.woff') format('woff'),
+        url('font\\ostrich-sans-regular.ttf') format('truetype');
 }
 
 
@@ -28,14 +28,13 @@
   width: 1000px;
   height: 1700px;
   background-image: url("images\\lightbluesky.jpg");
-  /* background-image: url("images\\whiteblocks.jpg");  */
 }
 
 
 h1
 {
     color:rgba(0, 0, 0, 0.822);
-    font-family: CAC;
+    font-family: ostrich-sans-black;
     font: size 50px;
 }
 
@@ -45,6 +44,6 @@ h1
 }
 
 nav,p,ul, header,h3 {
-  font-family: monospace;
+  font-family: ostrich-sans-regular;
   font: size 30px;
 }
