@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+*/
+
+* {
+    /* outline: 1px solid rgb(51, 2, 83); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* resets margin and padding on all elements to zero */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+}
+body {
+    display:grid;
+    grid-template-rows: 20% 30% 40% 5%;
+    grid-template-columns: 30% 30% 30% 10%;
+    height: 700px;
+}
+header{
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column-start:1;
+    grid-column-end:5;
+    background-color:rgb(116, 7, 116);
+}
+
+ header img{
+     float: left;
+    /* position: relative;
+    right: 30px;
+    top: 30px; */
+} 
+
+#story1{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:4;
+    overflow: auto;
+    background-color: rgb(159, 96, 218);
+}
+
+#story1 img{
+    float:left;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+/* aside #inside{
+  
+    background:  radial-gradient(white, rgb(210, 151, 222), rgb(116, 81, 125));
+
+    background-color: rgb(159, 96, 218);  
+} */
+
+aside 
+{
+    grid-row-start:2;
+    grid-row-end:4;
+    grid-column-start:4;
+    grid-column-end:5;
+    background-color: rgb(159, 96, 218); 
+    /* background:  radial-gradient(white, rgb(210, 151, 222), rgb(116, 81, 125));*/
+} 
+#story2{
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:1;
+    grid-column-end:2;
+    background-color: rgb(159, 96, 218);
+    overflow: auto;
+}
+#story3{
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:2;
+    grid-column-end:3;
+    background-color: rgb(149, 90, 204);
+    overflow: auto;
+}
+#story4{
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:3;
+    grid-column-end:4;
+    background-color: rgb(130, 78, 179);
+    overflow: auto;
+}
+footer {
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:1;
+    grid-column-end:5;
+    background-color: rgb(105, 64, 143);
+}
+
+div {background-color: rgb(94, 31, 107);}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+/* ul li:hover {background: #555;} */
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
