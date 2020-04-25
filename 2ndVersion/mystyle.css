@@ -117,7 +117,7 @@ aside
     grid-row-end:4;
     grid-column-start:4;
     grid-column-end:5;
-    background-color: rgb(149, 90, 204); 
+    background-color: rgb(165, 119, 209); 
     /* background:  radial-gradient(white, rgb(210, 151, 222), rgb(116, 81, 125));*/
 } 
 #story2{
@@ -125,7 +125,7 @@ aside
     grid-row-end:4;
     grid-column-start:1;
     grid-column-end:2;
-    background-color: rgb(130, 78, 179);
+    background-color: rgb(192, 146, 238);
     overflow: auto;
 }
 #story3{
@@ -133,7 +133,7 @@ aside
     grid-row-end:4;
     grid-column-start:2;
     grid-column-end:3;
-    background-color: rgb(149, 90, 204);
+    background-color: rgb(165, 119, 209);
     overflow: auto;
 }
 #story4{
@@ -141,7 +141,7 @@ aside
     grid-row-end:4;
     grid-column-start:3;
     grid-column-end:4;
-    background-color: rgb(130, 78, 179);
+    background-color: rgb(192, 146, 238);
     overflow: auto;
 }
 
