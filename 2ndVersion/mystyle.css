@@ -141,6 +141,12 @@ aside
     background-color: rgb(130, 78, 179);
     overflow: auto;
 }
+
+/* section{
+    column-span: 100%;
+    overflow: auto;
+} */
+
 footer {
     grid-row-start:4;
     grid-row-end:5;
