@@ -23,7 +23,7 @@ table{width:100%;}
     margin-right: 0px;
     margin-left: 0px;
     padding: 0px 0px 0px 0px;
-    color:rgb(8, 1, 8); 
+    color:rgb(204, 172, 204); 
     
 }
 body {
@@ -52,7 +52,7 @@ header img{
     grid-column-start:1;
     grid-column-end:4;
     overflow: auto;
-    background-color: rgb(159, 96, 218);
+    background-color:rgb(116, 7, 116);
 }
 
 #story1 img{
@@ -86,8 +86,8 @@ header img{
 }
 
 #story3 img, #story4 img{
-    height: 250x;
-    width: 350px;
+    height: 110x;
+    width: 120px;
 }
 
 /* aside #inside{
@@ -117,7 +117,7 @@ aside
     grid-row-end:4;
     grid-column-start:4;
     grid-column-end:5;
-    background-color: rgb(165, 119, 209); 
+    background-color: rgb(116, 7, 116); 
     /* background:  radial-gradient(white, rgb(210, 151, 222), rgb(116, 81, 125));*/
 } 
 #story2{
@@ -125,7 +125,7 @@ aside
     grid-row-end:4;
     grid-column-start:1;
     grid-column-end:2;
-    background-color: rgb(192, 146, 238);
+    background-color:rgb(116, 7, 116);
     overflow: auto;
 }
 #story3{
@@ -133,7 +133,7 @@ aside
     grid-row-end:4;
     grid-column-start:2;
     grid-column-end:3;
-    background-color: rgb(165, 119, 209);
+    background-color: rgb(116, 7, 116);
     overflow: auto;
 }
 #story4{
@@ -141,7 +141,7 @@ aside
     grid-row-end:4;
     grid-column-start:3;
     grid-column-end:4;
-    background-color: rgb(192, 146, 238);
+    background-color: rgb(116, 7, 116);
     overflow: auto;
 }
 
@@ -155,7 +155,7 @@ footer {
     grid-row-end:5;
     grid-column-start:1;
     grid-column-end:5;
-    background-color: rgb(105, 64, 143);
+    background-color: rgb(116, 7, 116);
 }
 
 div {
